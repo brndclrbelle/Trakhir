@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background: #333;
+    padding: 20px;
+    border-bottom: 2px solid gold;
+}
+h1 {
+    color: gold;
+}
+.subtitle {
+    color: #ccc;
+}
+button {
+    background-color: gold;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #e6b800;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    border-top: 2px solid gold;
+}

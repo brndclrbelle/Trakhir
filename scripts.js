@@ -1,0 +1,1 @@
+// Add interactive JS functionalities for reservations and booking checks

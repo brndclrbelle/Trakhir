@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Spherica Dining</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Payment Information</h1>
+    </header>
+    <main>
+        <p>Total Cost: <span id="totalCost"></span></p>
+        <p>Please transfer the total amount to:</p>
+        <p><strong>BCA Account: 6350169111</strong></p>
+        <p><strong>Account Name: Brenda Clarabelle Aurielia</strong></p>
+        <p>Upload your proof of payment below:</p>
+        <form id="paymentForm">
+            <label for="paymentProof">Proof of Payment:</label>
+            <input type="file" id="paymentProof" name="paymentProof" accept="image/*" required>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Spherica Dining. All rights reserved.</p>
+    </footer>
+</body>
+</html>
